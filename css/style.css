@@ -623,7 +623,15 @@ h3.title-sub span {
 
 /* what */
 .services {
-    background: url(../images/bg3.jpg) center no-repeat fixed;
+    background: url(../images/gg23.jpg) center no-repeat fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+.services2 {
+    background: url(../images/gg15.jpg) center no-repeat fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -701,7 +709,7 @@ a.service-btn:hover,
 }
 
 .team-img-1 {
-    background: url(../images/p1.jpg) no-repeat center;
+    background: url(../images/gg2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -711,7 +719,7 @@ a.service-btn:hover,
 }
 
 .team-img-2 {
-    background: url(../images/p2.jpg) no-repeat center;
+    background: url(../images/gg2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -721,7 +729,7 @@ a.service-btn:hover,
 }
 
 .team-img-3 {
-    background: url(../images/p3.jpg) no-repeat center;
+    background: url(../images/gg2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -731,7 +739,16 @@ a.service-btn:hover,
 }
 
 .team-img-4 {
-    background: url(../images/p4.jpg) no-repeat center;
+    background: url(../images/gg2.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    opacity: 0.7;
+}
+.team-img-5 {
+    background: url(../images/gg2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -745,7 +762,7 @@ a.service-btn:hover,
 }
 
 .team-meta {
-    color: #eee;
+    color: white;
     font-size: 18px;
     margin-top: 2px;
     /*margin-bottom: 4px;*/
@@ -847,7 +864,8 @@ h3.title-temps-amk-2 {
 
 .agents-temps-amk {
     position: absolute;
-    left: 7%;
+    top:30%;
+    left: 3%;
     bottom: 0;
 }
 
